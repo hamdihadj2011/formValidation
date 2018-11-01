@@ -1,0 +1,40 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #472F43;
+	height: 100vh;
+	color: #fff
+}
+
+
+form{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: left;
+	padding-top:40px;
+}
+div{
+	display: flex;
+	flex-direction: column;
+	padding-top: 20px
+}
+input,textarea{
+	width: 250px;
+	background-color: #2F2C3C;
+	color:#fff;
+	outline: none;
+	border:none;
+	border-radius: 7px
+}
+textarea{
+	height: 40px
+}
+.btn input{
+	display: block;
+	padding-bottom: 15px;
+	margin-bottom: 15px
+}
